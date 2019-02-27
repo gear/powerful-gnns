@@ -2,6 +2,7 @@ import networkx as nx
 import numpy as np
 import random
 import torch
+import os
 from sklearn.model_selection import StratifiedKFold
 
 class S2VGraph(object):
@@ -36,7 +37,7 @@ def load_data(dataset, degree_as_tag):
     label_dict = {}
     feat_dict = {}
 
-    with open('dataset/%s/%s.txt' % (dataset, dataset), 'r') as f:
+    with open(os.path.expanduser('~/data/gin/%s/%s.txt') % (dataset, dataset), 'r') as f:
         n_g = int(f.readline().strip())
         for i in range(n_g):
             row = f.readline().strip().split()
