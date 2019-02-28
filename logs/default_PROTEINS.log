@@ -1,0 +1,1754 @@
+loading data
+# classes: 2
+# maximum node tag: 3
+# data: 1113
+loss training: 5.467500
+accuracy train: 0.622378 test: 0.562500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 2.939736
+accuracy train: 0.650350 test: 0.642857
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 1.972586
+accuracy train: 0.728272 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 1.786062
+accuracy train: 0.760240 test: 0.705357
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.994458
+accuracy train: 0.755245 test: 0.732143
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.856329
+accuracy train: 0.747253 test: 0.758929
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 1.026364
+accuracy train: 0.725275 test: 0.750000
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 1.103588
+accuracy train: 0.753247 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.814897
+accuracy train: 0.748252 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.789724
+accuracy train: 0.751249 test: 0.732143
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.761896
+accuracy train: 0.765235 test: 0.741071
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.652338
+accuracy train: 0.742258 test: 0.732143
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.758960
+accuracy train: 0.753247 test: 0.741071
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.639727
+accuracy train: 0.735265 test: 0.723214
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.667171
+accuracy train: 0.698302 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.540635
+accuracy train: 0.745255 test: 0.723214
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.642417
+accuracy train: 0.701299 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.573410
+accuracy train: 0.769231 test: 0.741071
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.564480
+accuracy train: 0.756244 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.578237
+accuracy train: 0.737263 test: 0.705357
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.606629
+accuracy train: 0.729271 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.586664
+accuracy train: 0.688312 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.644420
+accuracy train: 0.751249 test: 0.758929
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.620745
+accuracy train: 0.764236 test: 0.723214
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.569775
+accuracy train: 0.758242 test: 0.741071
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.561655
+accuracy train: 0.764236 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.560616
+accuracy train: 0.761239 test: 0.723214
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.569106
+accuracy train: 0.697303 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.575994
+accuracy train: 0.765235 test: 0.732143
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.581645
+accuracy train: 0.753247 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.585043
+accuracy train: 0.762238 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.554845
+accuracy train: 0.655345 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.583131
+accuracy train: 0.700300 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.610090
+accuracy train: 0.749251 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.574062
+accuracy train: 0.769231 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.567263
+accuracy train: 0.759241 test: 0.732143
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.543597
+accuracy train: 0.743257 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.611617
+accuracy train: 0.760240 test: 0.723214
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.576266
+accuracy train: 0.756244 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.564238
+accuracy train: 0.773227 test: 0.750000
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.554970
+accuracy train: 0.741259 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.564113
+accuracy train: 0.704296 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.570427
+accuracy train: 0.747253 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.569544
+accuracy train: 0.756244 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.575403
+accuracy train: 0.705295 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.562399
+accuracy train: 0.758242 test: 0.705357
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.612952
+accuracy train: 0.720280 test: 0.741071
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.558952
+accuracy train: 0.751249 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.573021
+accuracy train: 0.739261 test: 0.723214
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.619862
+accuracy train: 0.758242 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.561788
+accuracy train: 0.759241 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.533407
+accuracy train: 0.763237 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.572553
+accuracy train: 0.742258 test: 0.741071
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.544776
+accuracy train: 0.751249 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.543296
+accuracy train: 0.759241 test: 0.705357
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.539040
+accuracy train: 0.757243 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.583601
+accuracy train: 0.714286 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.566798
+accuracy train: 0.750250 test: 0.723214
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.560369
+accuracy train: 0.734266 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.513759
+accuracy train: 0.765235 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.527958
+accuracy train: 0.758242 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.540124
+accuracy train: 0.759241 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.553302
+accuracy train: 0.769231 test: 0.741071
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.520181
+accuracy train: 0.758242 test: 0.705357
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.537930
+accuracy train: 0.779221 test: 0.723214
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.560627
+accuracy train: 0.773227 test: 0.732143
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.559574
+accuracy train: 0.775225 test: 0.723214
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.540613
+accuracy train: 0.760240 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.529964
+accuracy train: 0.779221 test: 0.732143
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.516618
+accuracy train: 0.779221 test: 0.732143
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.551934
+accuracy train: 0.785215 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.496551
+accuracy train: 0.767233 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.515496
+accuracy train: 0.777223 test: 0.723214
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.540521
+accuracy train: 0.757243 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.551668
+accuracy train: 0.765235 test: 0.705357
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.535917
+accuracy train: 0.770230 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.543096
+accuracy train: 0.769231 test: 0.723214
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.536462
+accuracy train: 0.785215 test: 0.732143
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.586108
+accuracy train: 0.766234 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.525624
+accuracy train: 0.764236 test: 0.723214
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.572272
+accuracy train: 0.763237 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.549341
+accuracy train: 0.776224 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.530486
+accuracy train: 0.730270 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.535499
+accuracy train: 0.769231 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.541362
+accuracy train: 0.732268 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.534787
+accuracy train: 0.758242 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.549575
+accuracy train: 0.759241 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.531859
+accuracy train: 0.771229 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.532417
+accuracy train: 0.767233 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.525376
+accuracy train: 0.771229 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.518591
+accuracy train: 0.763237 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.549942
+accuracy train: 0.726274 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.529492
+accuracy train: 0.753247 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.547688
+accuracy train: 0.762238 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.569378
+accuracy train: 0.778222 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.531154
+accuracy train: 0.774226 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.547499
+accuracy train: 0.758242 test: 0.651786
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.543755
+accuracy train: 0.772228 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.547944
+accuracy train: 0.763237 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.515014
+accuracy train: 0.762238 test: 0.705357
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.526417
+accuracy train: 0.774226 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.545893
+accuracy train: 0.776224 test: 0.705357
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.533388
+accuracy train: 0.782218 test: 0.705357
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.528877
+accuracy train: 0.776224 test: 0.705357
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.529438
+accuracy train: 0.776224 test: 0.705357
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.524753
+accuracy train: 0.780220 test: 0.732143
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.524599
+accuracy train: 0.781219 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.529635
+accuracy train: 0.775225 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.525955
+accuracy train: 0.783217 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.520096
+accuracy train: 0.770230 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.511189
+accuracy train: 0.775225 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.517584
+accuracy train: 0.769231 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.531176
+accuracy train: 0.781219 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.555726
+accuracy train: 0.746254 test: 0.651786
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.528631
+accuracy train: 0.781219 test: 0.705357
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.507102
+accuracy train: 0.770230 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.507765
+accuracy train: 0.773227 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.512314
+accuracy train: 0.762238 test: 0.651786
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.501823
+accuracy train: 0.778222 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.525072
+accuracy train: 0.764236 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.495429
+accuracy train: 0.782218 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.474228
+accuracy train: 0.789211 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.503098
+accuracy train: 0.781219 test: 0.705357
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.541141
+accuracy train: 0.786214 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.533961
+accuracy train: 0.734266 test: 0.633929
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.518581
+accuracy train: 0.775225 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.523975
+accuracy train: 0.778222 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.519752
+accuracy train: 0.762238 test: 0.651786
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.530216
+accuracy train: 0.770230 test: 0.732143
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.522195
+accuracy train: 0.780220 test: 0.705357
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.528310
+accuracy train: 0.773227 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.509435
+accuracy train: 0.776224 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.516301
+accuracy train: 0.776224 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.514734
+accuracy train: 0.781219 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.527511
+accuracy train: 0.783217 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.522556
+accuracy train: 0.781219 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.509585
+accuracy train: 0.784216 test: 0.642857
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.509496
+accuracy train: 0.789211 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.507829
+accuracy train: 0.782218 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.507685
+accuracy train: 0.790210 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.507683
+accuracy train: 0.786214 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.515774
+accuracy train: 0.781219 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.526555
+accuracy train: 0.787213 test: 0.651786
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.490300
+accuracy train: 0.772228 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.512575
+accuracy train: 0.794206 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.519499
+accuracy train: 0.782218 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.499984
+accuracy train: 0.775225 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.520649
+accuracy train: 0.773227 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.519658
+accuracy train: 0.794206 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.484531
+accuracy train: 0.779221 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.473625
+accuracy train: 0.787213 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.490995
+accuracy train: 0.782218 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.495720
+accuracy train: 0.788212 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.494910
+accuracy train: 0.791209 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.484917
+accuracy train: 0.792208 test: 0.651786
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.495379
+accuracy train: 0.773227 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.492472
+accuracy train: 0.795205 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.532335
+accuracy train: 0.786214 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.507527
+accuracy train: 0.786214 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.497574
+accuracy train: 0.789211 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.467572
+accuracy train: 0.789211 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.502697
+accuracy train: 0.798202 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.482204
+accuracy train: 0.799201 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.466115
+accuracy train: 0.795205 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.505068
+accuracy train: 0.784216 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.498118
+accuracy train: 0.789211 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.498922
+accuracy train: 0.798202 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.510139
+accuracy train: 0.783217 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.468121
+accuracy train: 0.797203 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.500058
+accuracy train: 0.760240 test: 0.651786
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.490631
+accuracy train: 0.790210 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.473178
+accuracy train: 0.781219 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.496612
+accuracy train: 0.789211 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.494214
+accuracy train: 0.785215 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.493438
+accuracy train: 0.789211 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.469254
+accuracy train: 0.789211 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.487297
+accuracy train: 0.787213 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.486265
+accuracy train: 0.787213 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.498481
+accuracy train: 0.797203 test: 0.705357
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.500776
+accuracy train: 0.800200 test: 0.714286
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.504551
+accuracy train: 0.787213 test: 0.633929
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.496027
+accuracy train: 0.778222 test: 0.598214
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.459258
+accuracy train: 0.798202 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.487819
+accuracy train: 0.797203 test: 0.651786
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.479758
+accuracy train: 0.797203 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.516742
+accuracy train: 0.799201 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.492917
+accuracy train: 0.794206 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.514069
+accuracy train: 0.789211 test: 0.651786
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.464075
+accuracy train: 0.790210 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.483466
+accuracy train: 0.800200 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.486702
+accuracy train: 0.800200 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.502568
+accuracy train: 0.796204 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.458396
+accuracy train: 0.796204 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.476313
+accuracy train: 0.795205 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.471210
+accuracy train: 0.787213 test: 0.651786
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.502434
+accuracy train: 0.781219 test: 0.633929
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.487667
+accuracy train: 0.784216 test: 0.651786
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.491556
+accuracy train: 0.804196 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.473531
+accuracy train: 0.799201 test: 0.705357
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.479364
+accuracy train: 0.801199 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.470750
+accuracy train: 0.794206 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.482287
+accuracy train: 0.806194 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.454637
+accuracy train: 0.811189 test: 0.651786
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.481480
+accuracy train: 0.803197 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.450483
+accuracy train: 0.810190 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.488919
+accuracy train: 0.795205 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.468249
+accuracy train: 0.795205 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.469678
+accuracy train: 0.805195 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.467138
+accuracy train: 0.809191 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.456537
+accuracy train: 0.811189 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.455597
+accuracy train: 0.809191 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.462878
+accuracy train: 0.806194 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.493807
+accuracy train: 0.783217 test: 0.651786
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.505403
+accuracy train: 0.801199 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.469928
+accuracy train: 0.807193 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.486582
+accuracy train: 0.805195 test: 0.705357
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.474012
+accuracy train: 0.808192 test: 0.651786
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.483922
+accuracy train: 0.805195 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.467366
+accuracy train: 0.804196 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.459657
+accuracy train: 0.807193 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.448334
+accuracy train: 0.818182 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.475412
+accuracy train: 0.802198 test: 0.651786
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.482568
+accuracy train: 0.806194 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.474023
+accuracy train: 0.800200 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.458623
+accuracy train: 0.810190 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.475130
+accuracy train: 0.809191 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.443698
+accuracy train: 0.822178 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.456461
+accuracy train: 0.819181 test: 0.651786
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.457614
+accuracy train: 0.810190 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.454267
+accuracy train: 0.816184 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.470807
+accuracy train: 0.812188 test: 0.625000
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.468691
+accuracy train: 0.814186 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.466209
+accuracy train: 0.815185 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.448532
+accuracy train: 0.814186 test: 0.651786
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.479439
+accuracy train: 0.806194 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.479591
+accuracy train: 0.815185 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.449306
+accuracy train: 0.811189 test: 0.625000
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.461665
+accuracy train: 0.795205 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.437403
+accuracy train: 0.807193 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.445891
+accuracy train: 0.822178 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.469904
+accuracy train: 0.819181 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.453767
+accuracy train: 0.806194 test: 0.651786
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.469925
+accuracy train: 0.798202 test: 0.598214
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.444166
+accuracy train: 0.815185 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.449065
+accuracy train: 0.821179 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.448307
+accuracy train: 0.824176 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.470326
+accuracy train: 0.816184 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.444882
+accuracy train: 0.800200 test: 0.625000
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.466458
+accuracy train: 0.813187 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.473233
+accuracy train: 0.817183 test: 0.651786
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.464254
+accuracy train: 0.813187 test: 0.642857
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.444541
+accuracy train: 0.823177 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.449203
+accuracy train: 0.818182 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.461326
+accuracy train: 0.811189 test: 0.651786
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.450549
+accuracy train: 0.817183 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.423434
+accuracy train: 0.820180 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.432392
+accuracy train: 0.821179 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.451861
+accuracy train: 0.818182 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.438266
+accuracy train: 0.825175 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.440972
+accuracy train: 0.822178 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.437410
+accuracy train: 0.823177 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.454700
+accuracy train: 0.824176 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.426519
+accuracy train: 0.812188 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.435739
+accuracy train: 0.821179 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.441717
+accuracy train: 0.814186 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.445605
+accuracy train: 0.821179 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.444781
+accuracy train: 0.811189 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.440357
+accuracy train: 0.816184 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.431128
+accuracy train: 0.819181 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.432291
+accuracy train: 0.810190 test: 0.642857
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.432961
+accuracy train: 0.822178 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.438963
+accuracy train: 0.803197 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.430217
+accuracy train: 0.829171 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.427539
+accuracy train: 0.824176 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.459091
+accuracy train: 0.824176 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.445018
+accuracy train: 0.826174 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.441961
+accuracy train: 0.813187 test: 0.651786
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.432524
+accuracy train: 0.821179 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.425069
+accuracy train: 0.828172 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.450730
+accuracy train: 0.823177 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.435862
+accuracy train: 0.825175 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.446466
+accuracy train: 0.833167 test: 0.705357
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.460326
+accuracy train: 0.814186 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.442583
+accuracy train: 0.822178 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.457341
+accuracy train: 0.806194 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.442555
+accuracy train: 0.814186 test: 0.633929
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.448612
+accuracy train: 0.814186 test: 0.633929
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.424493
+accuracy train: 0.828172 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.444613
+accuracy train: 0.816184 test: 0.642857
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.410132
+accuracy train: 0.824176 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.411326
+accuracy train: 0.822178 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.463604
+accuracy train: 0.821179 test: 0.642857
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.431562
+accuracy train: 0.824176 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.452228
+accuracy train: 0.815185 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.432192
+accuracy train: 0.829171 test: 0.642857
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.437366
+accuracy train: 0.818182 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.438908
+accuracy train: 0.833167 test: 0.642857
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.435527
+accuracy train: 0.836164 test: 0.651786
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.437935
+accuracy train: 0.820180 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.452120
+accuracy train: 0.819181 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.430683
+accuracy train: 0.832168 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.419065
+accuracy train: 0.824176 test: 0.651786
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.449412
+accuracy train: 0.818182 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.436323
+accuracy train: 0.822178 test: 0.616071
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.427258
+accuracy train: 0.827173 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.450581
+accuracy train: 0.808192 test: 0.633929
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.456082
+accuracy train: 0.827173 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.419536
+accuracy train: 0.817183 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.433464
+accuracy train: 0.829171 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.426413
+accuracy train: 0.832168 test: 0.642857
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.431054
+accuracy train: 0.829171 test: 0.705357
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.439645
+accuracy train: 0.819181 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.426672
+accuracy train: 0.834166 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.428627
+accuracy train: 0.829171 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.440335
+accuracy train: 0.813187 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.448579
+accuracy train: 0.829171 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.448165
+accuracy train: 0.833167 test: 0.642857
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.455365
+accuracy train: 0.829171 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.450383
+accuracy train: 0.828172 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.454898
+accuracy train: 0.815185 test: 0.633929
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.423744
+accuracy train: 0.820180 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.429874
+accuracy train: 0.813187 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.426768
+accuracy train: 0.838162 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.411254
+accuracy train: 0.839161 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.417581
+accuracy train: 0.822178 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.418922
+accuracy train: 0.838162 test: 0.696429
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.459098
+accuracy train: 0.823177 test: 0.687500
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.433800
+accuracy train: 0.832168 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.425761
+accuracy train: 0.822178 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.425483
+accuracy train: 0.827173 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.458935
+accuracy train: 0.835165 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.429211
+accuracy train: 0.838162 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.444888
+accuracy train: 0.827173 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.451199
+accuracy train: 0.829171 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.435200
+accuracy train: 0.838162 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.446997
+accuracy train: 0.842158 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.425825
+accuracy train: 0.830170 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.421855
+accuracy train: 0.832168 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.425300
+accuracy train: 0.837163 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.412551
+accuracy train: 0.833167 test: 0.705357
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.440067
+accuracy train: 0.836164 test: 0.651786
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.446816
+accuracy train: 0.840160 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.415401
+accuracy train: 0.825175 test: 0.678571
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.444284
+accuracy train: 0.827173 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.421332
+accuracy train: 0.832168 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.424569
+accuracy train: 0.838162 test: 0.651786
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.450493
+accuracy train: 0.825175 test: 0.669643
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.433317
+accuracy train: 0.829171 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.414688
+accuracy train: 0.839161 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
+loss training: 0.463673
+accuracy train: 0.836164 test: 0.660714
+
+Parameter containing:
+tensor([0., 0., 0., 0.], device='cuda:0', requires_grad=True)
