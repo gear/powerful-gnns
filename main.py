@@ -117,6 +117,8 @@ def main():
     					help='let the input node features be the degree of nodes (heuristics for unlabeled graph)')
     parser.add_argument('--filename', type = str, default = "",
                                         help='output file')
+    parser.add_argument('--bn', type=bool, default=True, help="Enable batchnorm for MLP")
+    parser.add_argument('--gbn', type=bool, default=True, help="Enable batchnorm for graph")
     args = parser.parse_args()
 
     #set up seeds and gpu device
@@ -131,7 +133,7 @@ def main():
     ##10-fold cross validation. Conduct an experiment on the fold specified by args.fold_idx.
     train_graphs, test_graphs = separate_data(graphs, args.seed, args.fold_idx)
 
-    model = GraphCNN(args.num_layers, args.num_mlp_layers, train_graphs[0].node_features.shape[1], args.hidden_dim, num_classes, args.final_dropout, args.learn_eps, args.graph_pooling_type, args.neighbor_pooling_type, device).to(device)
+    model = GraphCNN(args.num_layers, args.num_mlp_layers, train_graphs[0].node_features.shape[1], args.hidden_dim, num_classes, args.final_dropout, args.learn_eps, args.graph_pooling_type, args.neighbor_pooling_type, device, args.bn, args.gbn).to(device)
 
     optimizer = optim.Adam(model.parameters(), lr=args.lr)
     scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=50, gamma=0.5)

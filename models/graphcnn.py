@@ -7,7 +7,7 @@ sys.path.append("models/")
 from mlp import MLP
 
 class GraphCNN(nn.Module):
-    def __init__(self, num_layers, num_mlp_layers, input_dim, hidden_dim, output_dim, final_dropout, learn_eps, graph_pooling_type, neighbor_pooling_type, device):
+    def __init__(self, num_layers, num_mlp_layers, input_dim, hidden_dim, output_dim, final_dropout, learn_eps, graph_pooling_type, neighbor_pooling_type, device, bn=True, gbn=True):
         '''
             num_layers: number of layers in the neural networks (INCLUDING the input layer)
             num_mlp_layers: number of layers in mlps (EXCLUDING the input layer)
@@ -19,6 +19,8 @@ class GraphCNN(nn.Module):
             neighbor_pooling_type: how to aggregate neighbors (mean, average, or max)
             graph_pooling_type: how to aggregate entire nodes in a graph (mean, average)
             device: which device to use
+            bn: batch norm for MLP
+            gbn: batch norm for graph layers
         '''
 
         super(GraphCNN, self).__init__()
@@ -32,18 +34,22 @@ class GraphCNN(nn.Module):
         self.eps = nn.Parameter(torch.zeros(self.num_layers-1))
 
         ###List of MLPs
-        self.mlps = torch.nn.ModuleList()
+        if self.gbn:
+            self.mlps = torch.nn.ModuleList()
 
         ###List of batchnorms applied to the output of MLP (input of the final prediction linear layer)
         self.batch_norms = torch.nn.ModuleList()
+        self.bn = bn
+        self.gbn = gbn
 
         for layer in range(self.num_layers-1):
             if layer == 0:
-                self.mlps.append(MLP(num_mlp_layers, input_dim, hidden_dim, hidden_dim))
+                self.mlps.append(MLP(num_mlp_layers, input_dim, hidden_dim, hidden_dim, bn=self.bn))
             else:
-                self.mlps.append(MLP(num_mlp_layers, hidden_dim, hidden_dim, hidden_dim))
+                self.mlps.append(MLP(num_mlp_layers, hidden_dim, hidden_dim, hidden_dim, bn=self.bn))
 
-            self.batch_norms.append(nn.BatchNorm1d(hidden_dim))
+            if self.gbn:
+                self.batch_norms.append(nn.BatchNorm1d(hidden_dim))
 
         #Linear function that maps the hidden representation at dofferemt layers into a prediction score
         self.linears_prediction = torch.nn.ModuleList()
@@ -161,7 +167,10 @@ class GraphCNN(nn.Module):
         #Reweights the center node representation when aggregating it with its neighbors
         pooled = pooled + (1 + self.eps[layer])*h
         pooled_rep = self.mlps[layer](pooled)
-        h = self.batch_norms[layer](pooled_rep)
+        if self.gbn:
+            h = self.batch_norms[layer](pooled_rep)
+        else:
+            h = pooled_rep
 
         #non-linearity
         h = F.relu(h)
@@ -185,7 +194,10 @@ class GraphCNN(nn.Module):
         #representation of neighboring and center nodes 
         pooled_rep = self.mlps[layer](pooled)
 
-        h = self.batch_norms[layer](pooled_rep)
+        if self.gbn:
+            h = self.batch_norms[layer](pooled_rep)
+        else:
+            h = pooled_rep
 
         #non-linearity
         h = F.relu(h)
