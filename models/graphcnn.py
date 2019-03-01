@@ -32,15 +32,14 @@ class GraphCNN(nn.Module):
         self.neighbor_pooling_type = neighbor_pooling_type
         self.learn_eps = learn_eps
         self.eps = nn.Parameter(torch.zeros(self.num_layers-1))
+        self.gbn = gbn
+        self.bn = bn
 
         ###List of MLPs
-        if self.gbn:
-            self.mlps = torch.nn.ModuleList()
+        self.mlps = torch.nn.ModuleList()
 
         ###List of batchnorms applied to the output of MLP (input of the final prediction linear layer)
         self.batch_norms = torch.nn.ModuleList()
-        self.bn = bn
-        self.gbn = gbn
 
         for layer in range(self.num_layers-1):
             if layer == 0:
