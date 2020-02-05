@@ -4,6 +4,7 @@ import random
 import torch
 import os
 from sklearn.model_selection import StratifiedKFold
+from utils import gen_bipartite
 
 class S2VGraph(object):
     def __init__(self, g, label, node_tags=None, node_features=None):
@@ -23,6 +24,48 @@ class S2VGraph(object):
         self.edge_mat = 0
 
         self.max_neighbor = 0
+
+
+def _get_weighted(arr):
+    '''
+        Randomly get the element index weighted by the value in the list
+        arr: input array, sum of elements in the array should be 1. 
+    '''
+    assert sum(arr) == 1, "I'm too lazy to implement the proper random!" 
+    # get a uniform random number in [0,1)
+    r = np.random.random() 
+    for i, v in enumerate(arr):
+        r -= v
+        if r <= 0:
+            return i
+    return len(arr) - 1
+
+
+def corrupt_label(graph_list, T):
+    '''
+        Corrupt the labels of graphs in the graph_list using confusion matrix T
+        graph_list: list of S2VGraph to be corrupted
+        T: a c-by-c confusion matrix to corrupt the labels
+    '''
+    total_change = 0
+    for g in graph_list:
+        label = g.label 
+        arr = T[label]
+        new_label = _get_weighted(arr)
+        if label != new_label:
+            g.label = new_label
+            total_change += 1
+    print("Corrupted: {} out of {}. {.2f}".format(total_change, \
+                                                  len(graph_list), \
+                                                  total_change/len(graph_list)))
+    return graph_list
+
+
+# TODO: Implement this to test with GraphSAGE graphs
+def load_json_data(predix,
+                   normalize=True,
+                   load_walks=False):
+    G_data  = None
 
 
 def load_data(dataset, degree_as_tag):
@@ -126,7 +169,7 @@ def load_data(dataset, degree_as_tag):
 
     return g_list, len(label_dict)
 
-def separate_data(graph_list, seed, fold_idx):
+def separate_data(graph_list, seed=0, fold_idx=0):
     assert 0 <= fold_idx and fold_idx < 10, "fold_idx must be from 0 to 9."
     skf = StratifiedKFold(n_splits=10, shuffle = True, random_state = seed)
 
@@ -140,5 +183,4 @@ def separate_data(graph_list, seed, fold_idx):
     test_graph_list = [graph_list[i] for i in test_idx]
 
     return train_graph_list, test_graph_list
-
 

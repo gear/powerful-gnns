@@ -7,8 +7,11 @@ import numpy as np
 
 from tqdm import tqdm
 
-from util import load_data, separate_data
+from util import load_data, separate_data, corrupt_label
+from utils import gen_bipartite
+from utils_tud import load_tud_data
 from models.graphcnn import GraphCNN
+import numpy as np
 
 criterion = nn.CrossEntropyLoss()
 
@@ -44,7 +47,7 @@ def train(args, model, device, train_graphs, optimizer, epoch):
         pbar.set_description('epoch: %d' % (epoch))
 
     average_loss = loss_accum/total_iters
-    print("loss training: %f" % (average_loss))
+    # print("loss training: %f" % (average_loss))
     
     return average_loss
 
@@ -75,7 +78,7 @@ def test(args, model, device, train_graphs, test_graphs, epoch):
     correct = pred.eq(labels.view_as(pred)).sum().cpu().item()
     acc_test = correct / float(len(test_graphs))
 
-    print("accuracy train: %f test: %f" % (acc_train, acc_test))
+    # print("accuracy train: %f test: %f" % (acc_train, acc_test))
 
     return acc_train, acc_test
 
@@ -91,7 +94,7 @@ def main():
                         help='input batch size for training (default: 32)')
     parser.add_argument('--iters_per_epoch', type=int, default=50,
                         help='number of iterations per each epoch (default: 50)')
-    parser.add_argument('--epochs', type=int, default=350,
+    parser.add_argument('--epochs', type=int, default=50,
                         help='number of epochs to train (default: 350)')
     parser.add_argument('--lr', type=float, default=0.01,
                         help='learning rate (default: 0.01)')
@@ -119,7 +122,17 @@ def main():
                                         help='output file')
     parser.add_argument('--bn', type=bool, default=True, help="Enable batchnorm for MLP")
     parser.add_argument('--gbn', type=bool, default=True, help="Enable batchnorm for graph")
+    parser.add_argument('--corrupt_label', action="store_true",
+                        help="Enable label corruption")
+    parser.add_argument('--T', type=str, default="",
+                        help="Label noise configuration T. Should be passed as a flattened string with row order or a single value for symmetrix noise config.")
     args = parser.parse_args()
+
+    if args.dataset in {"MUTAG", "ENZYMES"}:
+        load_data = load_tud_data
+
+    if args.dataset in {"BIPARTITE"}:
+        load_data = gen_bipartite 
 
     #set up seeds and gpu device
     torch.manual_seed(0)
@@ -128,30 +141,37 @@ def main():
     if torch.cuda.is_available():
         torch.cuda.manual_seed_all(0)
 
-    graphs, num_classes = load_data(args.dataset, args.degree_as_tag)
+    if args.dataset in {"BIPARTITE"}:
+        graphs, num_classes = load_data(200, perm_frac=0.0, p=0.2)
+    else:
+        graphs, num_classes = load_data(args.dataset, args.degree_as_tag)
 
+    acc = []
     ##10-fold cross validation. Conduct an experiment on the fold specified by args.fold_idx.
-    train_graphs, test_graphs = separate_data(graphs, args.seed, args.fold_idx)
+    for fid in range(10):
+        train_graphs, test_graphs = separate_data(graphs, args.seed, args.fold_idx)
+         
+        model = GraphCNN(args.num_layers, args.num_mlp_layers, train_graphs[0].node_tags.shape[1], args.hidden_dim, num_classes, args.final_dropout, args.learn_eps, args.graph_pooling_type, args.neighbor_pooling_type, device, args.bn, args.gbn).to(device)
 
-    model = GraphCNN(args.num_layers, args.num_mlp_layers, train_graphs[0].node_features.shape[1], args.hidden_dim, num_classes, args.final_dropout, args.learn_eps, args.graph_pooling_type, args.neighbor_pooling_type, device, args.bn, args.gbn).to(device)
+        optimizer = optim.Adam(model.parameters(), lr=args.lr)
+        scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=50, gamma=0.5)
 
-    optimizer = optim.Adam(model.parameters(), lr=args.lr)
-    scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=50, gamma=0.5)
+        for epoch in range(1, args.epochs + 1):
 
+            avg_loss = train(args, model, device, train_graphs, optimizer, epoch)
+            scheduler.step()
+            acc_train, acc_test = test(args, model, device, train_graphs, test_graphs, epoch)
 
-    for epoch in range(1, args.epochs + 1):
-        scheduler.step()
+            if not args.filename == "":
+                with open(args.filename, 'w') as f:
+                    f.write("%f %f %f" % (avg_loss, acc_train, acc_test))
+                    f.write("\n")
+            # print("")
 
-        avg_loss = train(args, model, device, train_graphs, optimizer, epoch)
-        acc_train, acc_test = test(args, model, device, train_graphs, test_graphs, epoch)
+            # print(model.eps)
+        acc.append(acc_test)
 
-        if not args.filename == "":
-            with open(args.filename, 'w') as f:
-                f.write("%f %f %f" % (avg_loss, acc_train, acc_test))
-                f.write("\n")
-        print("")
-
-        print(model.eps)
+    print(np.mean(acc), np.std(acc))
     
 
 if __name__ == '__main__':

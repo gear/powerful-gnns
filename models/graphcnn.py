@@ -204,7 +204,7 @@ class GraphCNN(nn.Module):
 
 
     def forward(self, batch_graph):
-        X_concat = torch.cat([graph.node_features for graph in batch_graph], 0).to(self.device)
+        X_concat = torch.cat([graph.node_tags for graph in batch_graph], 0).to(self.device)
         graph_pool = self.__preprocess_graphpool(batch_graph)
 
         if self.neighbor_pooling_type == "max":
